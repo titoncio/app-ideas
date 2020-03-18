@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<meta name="author" content="Titoncio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>App-Ideas 1.1 - NumbConv</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Bin2Dec2Bin</h1>
+        <h2>Um conversor simples de binário e decimal.</h2>
+        <table class="main">
+            <tr>
+                <td> Entrada: <br /> <input type="text" id="in"></td>
+                <td> Saída: <br /> <input type="text" id="out"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="nc" value="b2d" id="b2d" onclick="binordec(this)" />
+                    <label for="b2d">Binario para Decimal</label>
+                </td>
+                <td>
+                    <input type="radio" name="nc" value="d2b" id="d2b" onclick="binordec(this)" />
+                    <label for="d2b">Decimal para Binário</label>
+                </td>
+            </tr>
+        </table>
+        <button id="botao" value="Converter">
+            <label for="botao">Converter</label>
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+</html>
